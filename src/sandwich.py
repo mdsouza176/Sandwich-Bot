@@ -63,7 +63,7 @@ async  def sub():
     ask = "Hello, this is sandwich, please enter the type of bread you'd like: \n"
     ask += get_Options_In_List(breadlist)
     await bot.say(ask)
-    sandwhich = "Your SandWhich: "
+    sandwhich = "Your Sandwich: "
     result = await bot.wait_for_message(10)
     isValid = False
     if result:
